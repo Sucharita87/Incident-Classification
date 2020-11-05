@@ -4,6 +4,8 @@ Created on Sat Aug 22 00:40:59 2020
 
 @author: SUCHARITA
 """
+# XGBoost, Random Forest and KNN gave the maximum accuracy and model was deployed using XGBoost 
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
