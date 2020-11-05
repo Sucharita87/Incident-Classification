@@ -348,12 +348,12 @@ plot_importance(xgb)
 #MODEL BUILDING
 #============================================================================================================
 
-predictor = x_train.loc[:,['category_ID','ID' ,'opened_by', 'opened_time','Created_by', 'updated_by' ,'updated_at',
- 'Support_group', 'support_incharge', 'location' , 'count_updated','created_at',
+predictor = x_train.loc[:,['category_ID','opened_time','ID_status' ,'updated_at',
+ 'Support_group', 'support_incharge', 'location' , 'count_updated',
  'user_symptom','ID_caller']]
 
-pred_test= x_test.loc[:,['category_ID','ID' ,'opened_by', 'opened_time','Created_by', 'updated_by' ,'updated_at',
- 'Support_group', 'support_incharge', 'location' , 'count_updated','created_at',
+pred_test= x_test.loc[:,['category_ID','opened_time','ID_status' ,'updated_at',
+ 'Support_group', 'support_incharge', 'location' , 'count_updated',
  'user_symptom','ID_caller']]
 
 
